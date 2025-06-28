@@ -1,5 +1,16 @@
 # NavigateBetweenScreens
 
+### 🖼️ Initial Screen  
+This is the starting point with the navigation button.
+
+<img src="Screenshot.png" width="300"/>
+
+---
+
+### 🖼️ After Navigation  
+This is the second screen after transition.
+
+<img src="Screenshot2.png" width="300"/>
 
 # Screen Navigation Practice
 
@@ -21,6 +32,7 @@ This helped me understand UIKit view controller transitions and how to control s
 
 ---
 
+
 ### 2. Navigation Between Screens
 
 #### ✅ Method 1: Using Action Segue
@@ -41,6 +53,14 @@ This helped me understand UIKit view controller transitions and how to control s
 ```swift
 let nextVC = storyboard?.instantiateViewController(withIdentifier: "NextViewController") as! NextViewController
 present(nextVC, animated: true, completion: nil)
+
+
+
+
+
+
+
+
 
 
 
